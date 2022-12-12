@@ -1,6 +1,4 @@
-## Game of life using PyGame
-
-My goal is to create Conway's game of life using PyGame.
+## Conway's Game of life using PyGame
 
 Rules:
 - Any live cell with fewer than two live neighbours dies, as if caused by underpopulation.
@@ -9,5 +7,7 @@ Rules:
 - Any dead cell with exactly three live neighbours becomes a live cell.
 - Each cell's neighborhood is the 8 cells immediately around it (Moore Neighborhood).
 
-The game will use a toroidal array. The user will be able to select the number of generations and choose from 
-a selection of field sizes.
+Goals: 
+- Use a toroidal array. 
+- Allow user to select the number of generations and starting conditions (by point and click)
+- Allow user to choose from a selection of field sizes.
